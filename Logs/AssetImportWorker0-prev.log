@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.54f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/hcass/secure trivia
+C:/Users/hcass/OneDrive/Desktop/Trivia-Game-Secure-Software-2025
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54238
-Successfully changed project path to: C:/Users/hcass/secure trivia
-C:/Users/hcass/secure trivia
+52168
+Successfully changed project path to: C:/Users/hcass/OneDrive/Desktop/Trivia-Game-Secure-Software-2025
+C:/Users/hcass/OneDrive/Desktop/Trivia-Game-Secure-Software-2025
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,24 +49,24 @@ C:/Users/hcass/secure trivia
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31640]  Target information:
+Player connection [15080]  Target information:
 
-Player connection [31640]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4068921549 [EditorId] 4068921549 [Version] 1048832 [Id] WindowsEditor(7,Balegdeh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15080]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 726009591 [EditorId] 726009591 [Version] 1048832 [Id] WindowsEditor(7,Balegdeh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31640]  * "[IP] 192.168.186.1 [Port] 0 [Flags] 2 [Guid] 4068921549 [EditorId] 4068921549 [Version] 1048832 [Id] WindowsEditor(7,Balegdeh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15080]  * "[IP] 192.168.186.1 [Port] 0 [Flags] 2 [Guid] 726009591 [EditorId] 726009591 [Version] 1048832 [Id] WindowsEditor(7,Balegdeh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31640]  * "[IP] 192.168.50.1 [Port] 0 [Flags] 2 [Guid] 4068921549 [EditorId] 4068921549 [Version] 1048832 [Id] WindowsEditor(7,Balegdeh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15080]  * "[IP] 192.168.50.1 [Port] 0 [Flags] 2 [Guid] 726009591 [EditorId] 726009591 [Version] 1048832 [Id] WindowsEditor(7,Balegdeh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31640]  * "[IP] 10.20.120.160 [Port] 0 [Flags] 2 [Guid] 4068921549 [EditorId] 4068921549 [Version] 1048832 [Id] WindowsEditor(7,Balegdeh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15080]  * "[IP] 192.168.1.211 [Port] 0 [Flags] 2 [Guid] 726009591 [EditorId] 726009591 [Version] 1048832 [Id] WindowsEditor(7,Balegdeh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31640] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31640] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15080] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 35.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 24.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.54f1 (129125d4e700)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/hcass/secure trivia/Assets
+[Subsystems] Discovering subsystems at path C:/Users/hcass/OneDrive/Desktop/Trivia-Game-Secure-Software-2025/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -78,51 +78,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.023362 seconds.
-- Loaded All Assemblies, in  0.733 seconds
+Registered in 0.058667 seconds.
+- Loaded All Assemblies, in  1.060 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 555 ms
+Android Extension - Scanning For ADB Devices 602 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.129 seconds
-Domain Reload Profiling: 1859ms
-	BeginReloadAssembly (258ms)
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 2326ms
+	BeginReloadAssembly (254ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (256ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (259ms)
+	LoadAllAssembliesAndSetupDomain (448ms)
+		LoadAssemblies (254ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (279ms)
-				TypeCache.ScanAssembly (257ms)
+		AnalyzeDomain (441ms)
+			TypeCache.Refresh (439ms)
+				TypeCache.ScanAssembly (414ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1130ms)
+	FinalizeReload (1271ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1049ms)
+		SetupLoadedEditorAssemblies (1202ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (757ms)
+			InitializePlatformSupportModulesInManaged (820ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -131,52 +131,52 @@ Domain Reload Profiling: 1859ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.165 seconds
+- Loaded All Assemblies, in  4.625 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.160 seconds
-Domain Reload Profiling: 2320ms
-	BeginReloadAssembly (249ms)
+- Finished resetting the current domain, in  2.755 seconds
+Domain Reload Profiling: 7381ms
+	BeginReloadAssembly (295ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (84ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (739ms)
-		LoadAssemblies (582ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (186ms)
+	LoadAllAssembliesAndSetupDomain (4020ms)
+		LoadAssemblies (1102ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (304ms)
-			TypeCache.Refresh (273ms)
-				TypeCache.ScanAssembly (255ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1161ms)
+		AnalyzeDomain (3070ms)
+			TypeCache.Refresh (2573ms)
+				TypeCache.ScanAssembly (2044ms)
+			ScanForSourceGeneratedMonoScriptInfo (444ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (2757ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (922ms)
+		SetupLoadedEditorAssemblies (1826ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (59ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (115ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (159ms)
-			ProcessInitializeOnLoadAttributes (658ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (248ms)
+			ProcessInitializeOnLoadAttributes (1346ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (27ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 5.91 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (23ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 25.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3703.
-Memory consumption went from 120.9 MB to 120.9 MB.
-Total: 3.694400 ms (FindLiveObjects: 0.322000 ms CreateObjectMapping: 0.532000 ms MarkObjects: 2.741200 ms  DeleteObjects: 0.097700 ms)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3703.
+Memory consumption went from 121.2 MB to 121.2 MB.
+Total: 7.020000 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.287200 ms MarkObjects: 6.210500 ms  DeleteObjects: 0.214100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,417 +193,1306 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 255671.708812 seconds.
-  path: Assets/Thaleah_PixelFont/Materials/ThaleahFat_TTF.ttf
-  artifactKey: Guid(585188cdc4600544eb408bee749e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thaleah_PixelFont/Materials/ThaleahFat_TTF.ttf using Guid(585188cdc4600544eb408bee749e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '963d324995d996a54270b0fdbc6c15e2') in 0.319641 seconds
+  Time since last request: 698640.148200 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  2.prefab
+  artifactKey: Guid(359e2f4830a1d974c9caef0d51c13d2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  2.prefab using Guid(359e2f4830a1d974c9caef0d51c13d2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'da54eadbc5ac807a3f06242420e1eaa4') in 0.398489 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 298.438445 seconds.
-  path: Assets/Modular low poly letters and icons/prefab
-  artifactKey: Guid(8fa1da90097e2bb4ba8f86b2a74d29d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab using Guid(8fa1da90097e2bb4ba8f86b2a74d29d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '879d07139abe50aaec0f6dc30c28ab0d') in 0.001417 seconds
+  Time since last request: 0.000078 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/icon.013.prefab
+  artifactKey: Guid(e413a8fd6aa2fc9409510bdc78d227aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/icon.013.prefab using Guid(e413a8fd6aa2fc9409510bdc78d227aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9c65cef90a118464cd993facd23ab93e') in 0.073038 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.990105 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons
-  artifactKey: Guid(ab0c4e9068797a944939fd8752603f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons using Guid(ab0c4e9068797a944939fd8752603f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4a6732d1448f3fd9b3e8c15e13726ce1') in 0.001368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.046114 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.00.prefab
-  artifactKey: Guid(b1aa3b3e9d2979942a05d5d7d19a887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.00.prefab using Guid(b1aa3b3e9d2979942a05d5d7d19a887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c655174acd0d81f540af7649587fec27') in 0.378628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.08.prefab
-  artifactKey: Guid(64e5bd50564a5254c9bdff3b3bd53c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.08.prefab using Guid(64e5bd50564a5254c9bdff3b3bd53c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0a246719bc548c4936ebeba3928dc377') in 0.015523 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.06.prefab
-  artifactKey: Guid(2d1f3c5397a1fcc4d8759cd926c0bd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.06.prefab using Guid(2d1f3c5397a1fcc4d8759cd926c0bd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0413550f93e0e9fa99755ddc93cd4a72') in 0.017132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.011.prefab
-  artifactKey: Guid(e2daf9a7442c5364d9d7a4ba45495135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.011.prefab using Guid(e2daf9a7442c5364d9d7a4ba45495135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a23b24638f0fea8c2143f8532a300131') in 0.018715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.012.prefab
-  artifactKey: Guid(4ae4ea6f06218c14d948109f53db69f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.012.prefab using Guid(4ae4ea6f06218c14d948109f53db69f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '68e97a599ace9da6fab711ad4b1f219f') in 0.019979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.013.prefab
-  artifactKey: Guid(766cfb396d4f332498b3e590051d2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.013.prefab using Guid(766cfb396d4f332498b3e590051d2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd6412339c52741fc73297e8c3613b5d4') in 0.017417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.014.prefab
-  artifactKey: Guid(8fe14e88d02045e49976b801baa2480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.014.prefab using Guid(8fe14e88d02045e49976b801baa2480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6297eb41ffe2d252380f5e65fe1c4ec9') in 0.017118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.016.prefab
-  artifactKey: Guid(fc499a3dd1a267144b4309a4a545edf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.016.prefab using Guid(fc499a3dd1a267144b4309a4a545edf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a3f69c448b90f13f59d0b3a0929dec3a') in 0.015963 seconds
+  path: Assets/Modular low poly letters and icons/mesh/block letter N.prefab
+  artifactKey: Guid(c0057d2caecccfe4189a79def6118d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter N.prefab using Guid(c0057d2caecccfe4189a79def6118d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '446f1e3180000580e73ff1cae791389c') in 0.071389 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.03.prefab
-  artifactKey: Guid(ebab6beac7a0f7b48b38bc503438516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.03.prefab using Guid(ebab6beac7a0f7b48b38bc503438516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b2369d937c28aed8003a88bfc234d790') in 0.019524 seconds
+  Time since last request: 0.000295 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase C.prefab
+  artifactKey: Guid(42000f5cca59e39469aef51b8deab589) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase C.prefab using Guid(42000f5cca59e39469aef51b8deab589) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2128031363b0972c78afa98b029341a1') in 0.079067 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.07.prefab
-  artifactKey: Guid(acbede1bfb178d347925c6569e929980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.07.prefab using Guid(acbede1bfb178d347925c6569e929980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a4e9fcf73693fadcc7aee2d73eca84d9') in 0.016263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.09.prefab
-  artifactKey: Guid(7e89bad361a1ca54aa2de0e0c854c470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.09.prefab using Guid(7e89bad361a1ca54aa2de0e0c854c470) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5fa6cf3fc66079badbf3a2cc5fbcf250') in 0.022031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.010.prefab
-  artifactKey: Guid(15e0c90c8765c974eaacb693df498d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.010.prefab using Guid(15e0c90c8765c974eaacb693df498d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1612c61bcca5579609c4c1473a1afa72') in 0.016946 seconds
+  path: Assets/Scenes/images.jpg
+  artifactKey: Guid(9c04593621323ba41b350ec8bc9093c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/images.jpg using Guid(9c04593621323ba41b350ec8bc9093c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b5a4aaf3e6fe28a65ead445ee651433') in 0.378201 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/icons/icon.017.prefab
-  artifactKey: Guid(dea99e76c51cc5949920a558c48ef257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.017.prefab using Guid(dea99e76c51cc5949920a558c48ef257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '96b9372c8b5a88250ad9812eb852591e') in 0.019728 seconds
+  Time since last request: 0.000067 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter S.prefab
+  artifactKey: Guid(e79904a635a11954397a45806a62b309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter S.prefab using Guid(e79904a635a11954397a45806a62b309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b38f972c15549d92dd20d548d99c86bc') in 0.080737 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 6.434604 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase
-  artifactKey: Guid(9053c94899914d94fbf6b157a7435a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase using Guid(9053c94899914d94fbf6b157a7435a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8a592f93d04722d97c367f6ffeb11174') in 0.004119 seconds
+  Time since last request: 0.000932 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter question mark.prefab
+  artifactKey: Guid(07b1d64ce1689af4b8ccde0760444186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter question mark.prefab using Guid(07b1d64ce1689af4b8ccde0760444186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '780eb3394dc0ab5a2ee49de69577398d') in 0.064990 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.033425 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/Exclamation mark.prefab
-  artifactKey: Guid(a5b021fbc0439ba4c9b073813d76ab6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/Exclamation mark.prefab using Guid(a5b021fbc0439ba4c9b073813d76ab6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a576b1313da42613e6703dd67b12e391') in 0.014190 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter M.prefab
+  artifactKey: Guid(df91892f894f15b4fb4acd892a2f0438) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter M.prefab using Guid(df91892f894f15b4fb4acd892a2f0438) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c6b707965c0ed8904f8aeca1dbac5b5') in 0.072813 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase L.prefab
-  artifactKey: Guid(45d282d8234238b46a741d4728b89fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase L.prefab using Guid(45d282d8234238b46a741d4728b89fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ec743cfee4006f39c309aae0dc6fb6e8') in 0.012140 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter U.prefab
+  artifactKey: Guid(26f4cc4c8a161694e8f97d86e2afa3d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter U.prefab using Guid(26f4cc4c8a161694e8f97d86e2afa3d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f562a0cf9765c5ef393837cff1597f1a') in 0.076854 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase O.prefab
-  artifactKey: Guid(cd05fa165bbffc945a5b44347a89c509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase O.prefab using Guid(cd05fa165bbffc945a5b44347a89c509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5293f55cc65de6a115d9cc12f3e7add7') in 0.013684 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase U.prefab
+  artifactKey: Guid(4a4ecfda9ad89b2458cf6520d8ca885e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase U.prefab using Guid(4a4ecfda9ad89b2458cf6520d8ca885e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e40ba98cb78f33a469849b68531fb0af') in 0.084116 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase U.prefab
-  artifactKey: Guid(8475d76d16ff8474992c672800a17611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase U.prefab using Guid(8475d76d16ff8474992c672800a17611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8ce9df93bda0917ea5829fafa91729b9') in 0.014716 seconds
+  Time since last request: 0.000089 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase D.prefab
+  artifactKey: Guid(fd9d3957614a9df40a110d6f70d67ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase D.prefab using Guid(fd9d3957614a9df40a110d6f70d67ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '55c0a196c72d0c86dbdcf0fd50a522ff') in 0.070961 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase S.prefab
-  artifactKey: Guid(9dd2e4fed5211da44aca3030cce5a91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase S.prefab using Guid(9dd2e4fed5211da44aca3030cce5a91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bb66797894ba35f33a6bd75f8fe608b6') in 0.019348 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/number 8.prefab
+  artifactKey: Guid(21e264562eb3f7f4bbe0a850d4c00150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/number 8.prefab using Guid(21e264562eb3f7f4bbe0a850d4c00150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1be3a3962e3391f2003cca1d0018bffb') in 0.074658 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase G.prefab
-  artifactKey: Guid(ae7d8be6c6734d549bc8623c59204966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase G.prefab using Guid(ae7d8be6c6734d549bc8623c59204966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '578e197f08a0eb936c81b7c68fff3dde') in 0.014108 seconds
+  Time since last request: 0.000048 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase Z.prefab
+  artifactKey: Guid(9c5c7cf2e29dccc43a7069d70b4406c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase Z.prefab using Guid(9c5c7cf2e29dccc43a7069d70b4406c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7019e26e0582176b7a80bb09f4f515cd') in 0.083802 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase Q.prefab
-  artifactKey: Guid(8f9d560ccbf6f98478b1c36dd5ef9a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase Q.prefab using Guid(8f9d560ccbf6f98478b1c36dd5ef9a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f30b6a05be245103cd4fccb08542753a') in 0.014399 seconds
+  Time since last request: 0.000071 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase F.prefab
+  artifactKey: Guid(f1c27d96ab746094890f58e0fe60fa05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase F.prefab using Guid(f1c27d96ab746094890f58e0fe60fa05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aa4c655e2baedf3da0fc6e541ce1ea1b') in 0.074628 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase W.prefab
-  artifactKey: Guid(48f8054d93264fa449d2b360a0dd6166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase W.prefab using Guid(48f8054d93264fa449d2b360a0dd6166) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0880b6383b42594a63a252b35f252f1b') in 0.019846 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter Q.prefab
+  artifactKey: Guid(39946524ec4225e4f9a567a29bcdf8b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter Q.prefab using Guid(39946524ec4225e4f9a567a29bcdf8b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2b1f2ee3ebdff80e8b9f81d583914280') in 0.063969 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase P.prefab
-  artifactKey: Guid(124d94dbc471fee43a7e8d08d6425c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase P.prefab using Guid(124d94dbc471fee43a7e8d08d6425c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '40fc72be92e930f3ee7269a8f23b27b7') in 0.011680 seconds
+  Time since last request: 0.000048 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/question mark.prefab
+  artifactKey: Guid(d687611e228f9434faca3d07ba53f928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/question mark.prefab using Guid(d687611e228f9434faca3d07ba53f928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ff1b828a7646dc63db7a6bb78a1c96cb') in 0.061150 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase I.prefab
-  artifactKey: Guid(18682bf16e9c1c246a85a4cf7227b183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase I.prefab using Guid(18682bf16e9c1c246a85a4cf7227b183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b77288ecf5b854cf70714a334ae8c2b5') in 0.014006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase J.prefab
-  artifactKey: Guid(a08bb11ced9d1be42bed6015e9995708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase J.prefab using Guid(a08bb11ced9d1be42bed6015e9995708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b7f38f6b3de7aa826db1c2ed70f6b1f8') in 0.015076 seconds
+  path: Assets/Modular low poly letters and icons/mesh/uppercase I.prefab
+  artifactKey: Guid(4fe75481f3dcee2408dc3d14d14015e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase I.prefab using Guid(4fe75481f3dcee2408dc3d14d14015e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c9d4365a3b7219e6bbc0c8da4d758331') in 0.097037 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase F.prefab
-  artifactKey: Guid(3000ce45295dea442802fb32f3c562df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase F.prefab using Guid(3000ce45295dea442802fb32f3c562df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e0e69c4a8350d0d07db1b65ba864380e') in 0.018340 seconds
+  Time since last request: 0.000352 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase I.prefab
+  artifactKey: Guid(ebcc3a25099c7ec4bb0b269d068c216f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase I.prefab using Guid(ebcc3a25099c7ec4bb0b269d068c216f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f4c914f8bba6de5bd33141d38be66128') in 0.081637 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/icon.016.prefab
+  artifactKey: Guid(2dab0e2da695e5b47bfd5879c34777df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/icon.016.prefab using Guid(2dab0e2da695e5b47bfd5879c34777df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8e05573dbe9e3f57e50bfeed895739db') in 0.079012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000053 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/question mark.prefab
-  artifactKey: Guid(a427da669df15cd45b90ae9a6521ad49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/question mark.prefab using Guid(a427da669df15cd45b90ae9a6521ad49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '231cbf6c99b859ee4ab22d24b592d8a1') in 0.014630 seconds
+  path: Assets/Modular low poly letters and icons/mesh/uppercase U.prefab
+  artifactKey: Guid(3d392f981f88baf4ea7a2de4faf309f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase U.prefab using Guid(3d392f981f88baf4ea7a2de4faf309f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6ec617b3110367c233ac42a48e2e8200') in 0.081583 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase K.prefab
-  artifactKey: Guid(d39df854cb64e7445a4c36d732fc855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase K.prefab using Guid(d39df854cb64e7445a4c36d732fc855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f641da2184452a54b20d64ebba1b6124') in 0.016206 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase Y.prefab
+  artifactKey: Guid(df07137693ef89541946cdd6648da8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase Y.prefab using Guid(df07137693ef89541946cdd6648da8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d8267f7ba847c6cf95ef4f3a6edaf30') in 0.078078 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase V.prefab
-  artifactKey: Guid(d895d46c630b66d4b810062bf0623645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase V.prefab using Guid(d895d46c630b66d4b810062bf0623645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a386e8c3ca65573b12a84eb8f32c5c0e') in 0.014935 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  1.prefab
+  artifactKey: Guid(79be358ffb60bf949a53a767ddbe8dd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  1.prefab using Guid(79be358ffb60bf949a53a767ddbe8dd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd66388a30a880317220310598178f32') in 0.087451 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 199.389189 seconds.
-  path: Assets/Nytrock/Global Nytrock Font/Legacy/GNF.fontsettings
-  artifactKey: Guid(2eb50ef9204dcc34bbf01b4091e495e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nytrock/Global Nytrock Font/Legacy/GNF.fontsettings using Guid(2eb50ef9204dcc34bbf01b4091e495e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '091d3616f18f6676e254182eabcbd1fd') in 0.013652 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter H.prefab
+  artifactKey: Guid(a11586505d9e405469fce14ea8c37974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter H.prefab using Guid(a11586505d9e405469fce14ea8c37974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '77da27078badf77d4f75a5a201ba2d5a') in 0.083563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter W.prefab
+  artifactKey: Guid(7531475a6f2b9c14490f2bc2a425baf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter W.prefab using Guid(7531475a6f2b9c14490f2bc2a425baf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d2ce0aca8a5f3f79b26047a35ee884b') in 0.075463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase D.prefab
+  artifactKey: Guid(de041e49e7626d140b7806a472fb2fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase D.prefab using Guid(de041e49e7626d140b7806a472fb2fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '062d64fac75f80c94792853b28111ae4') in 0.072400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Modular low poly letters and icons/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '736a511a4f29e930ad87d8018193ef1e') in 0.040931 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 231.126456 seconds.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Thaleah_PixelFont/Materials/ThaleahFat.png
+  artifactKey: Guid(0ac691dd25a276d468ee89cf1948229d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thaleah_PixelFont/Materials/ThaleahFat.png using Guid(0ac691dd25a276d468ee89cf1948229d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a4d2c4437ff535d9011c40a36ede45a') in 0.084484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Nytrock/Global Nytrock Font/AllSymbols.txt
+  artifactKey: Guid(c59d3ee3b64a4b5469481335d584a19a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Nytrock/Global Nytrock Font/AllSymbols.txt using Guid(c59d3ee3b64a4b5469481335d584a19a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e4cf1639bf72f7853f14fdcdcfe7251c') in 0.066760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Nytrock/Global Nytrock Font/GNF TTF.ttf
+  artifactKey: Guid(c7fdb296bed60874d867f76bdd87daa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Nytrock/Global Nytrock Font/GNF TTF.ttf using Guid(c7fdb296bed60874d867f76bdd87daa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3792aff6bbf72982945270d99d3532b3') in 0.095735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase O.prefab
+  artifactKey: Guid(0853739876c3166408a9710614958120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase O.prefab using Guid(0853739876c3166408a9710614958120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '549e7aaf2ba918c40e052d3b7a4da1f9') in 0.062816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase B.prefab
+  artifactKey: Guid(11e66c387372c804db4fd7e4fb43f838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase B.prefab using Guid(11e66c387372c804db4fd7e4fb43f838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f78373947e9098cc03af9843fc0a1fe1') in 0.059407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter I.prefab
+  artifactKey: Guid(9ee592b725ff994419966b36cc74ed73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter I.prefab using Guid(9ee592b725ff994419966b36cc74ed73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f7e7e33ef57bc3dd233c174012c34064') in 0.071050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter K.prefab
+  artifactKey: Guid(89bb425e0f294b44d9120dea981e740f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter K.prefab using Guid(89bb425e0f294b44d9120dea981e740f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6b3658b12c078e142beffc6e8e509e6') in 0.071133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0453932f6c0eb65c5d68297910cd3d98') in 0.040069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase H.prefab
+  artifactKey: Guid(09c13a9248a20d14b85e05557e8916f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase H.prefab using Guid(09c13a9248a20d14b85e05557e8916f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '067e9f1f7b0ba4d47728a3a0a84a082c') in 0.079519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modular low poly letters and icons/materials/lowercase.mat
+  artifactKey: Guid(30205ac8b36f7844fbbba6ccc0178b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/materials/lowercase.mat using Guid(30205ac8b36f7844fbbba6ccc0178b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ef1e54ebc71531f0d09b1c3166d9d357') in 0.121189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modular low poly letters and icons/materials/numbers.mat
+  artifactKey: Guid(ed5e9f01c2b169042a51819739fdf3ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/materials/numbers.mat using Guid(ed5e9f01c2b169042a51819739fdf3ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '01976075ea542d5f0b849a3d29efb7af') in 0.066280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter C.prefab
+  artifactKey: Guid(b460ca69e02b4fd4d966561adf1ee87a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter C.prefab using Guid(b460ca69e02b4fd4d966561adf1ee87a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a0ae9c36fe02eb0b6d924f8d2bab7c23') in 0.061477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase Z.prefab
+  artifactKey: Guid(71d7f5109744afb4da0d2fdbc8e5d757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase Z.prefab using Guid(71d7f5109744afb4da0d2fdbc8e5d757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '95a4061fc0e4526d125958173db92d00') in 0.069995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase X.prefab
+  artifactKey: Guid(1be31e17bbc1cb04c80244f40b627137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase X.prefab using Guid(1be31e17bbc1cb04c80244f40b627137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '77c362061fa67114bdbfe42753138ff1') in 0.070072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter L.prefab
+  artifactKey: Guid(6b2b50ddea7dadd4faa927512c804a89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter L.prefab using Guid(6b2b50ddea7dadd4faa927512c804a89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a7504a11bb7d3964cfb951de8328b9f8') in 0.075549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter M.prefab
+  artifactKey: Guid(6c380b83388dcf34ca388d8eaf63aff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter M.prefab using Guid(6c380b83388dcf34ca388d8eaf63aff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6c29ee753f4013054d0228c9770677f') in 0.070015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter C.prefab
+  artifactKey: Guid(dab22e706284d3140aa2167c18af7d21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter C.prefab using Guid(dab22e706284d3140aa2167c18af7d21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '04ad07f93c0b1fc58d11c0c7f64cff8c') in 0.058029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  9.prefab
+  artifactKey: Guid(862965547a3b4894e869ae0b8d8b7eb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  9.prefab using Guid(862965547a3b4894e869ae0b8d8b7eb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '245168673639b1e6bf3826181a644708') in 0.061342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Thaleah_PixelFont/Materials/ThaleahFat.mat
+  artifactKey: Guid(43d59b5c638b0664db55f3a4e4d130ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thaleah_PixelFont/Materials/ThaleahFat.mat using Guid(43d59b5c638b0664db55f3a4e4d130ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ca3f81b1d207e55bea0d91e6c9a50eac') in 0.051235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  6.prefab
+  artifactKey: Guid(34645fa87fee3a64b91b49f9e80cbe1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  6.prefab using Guid(34645fa87fee3a64b91b49f9e80cbe1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f507dbb2bac207a612918956b1ce9915') in 0.075985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter H.prefab
+  artifactKey: Guid(c96a399502576d34e969a7f360235f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter H.prefab using Guid(c96a399502576d34e969a7f360235f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a82381d71402a0b67ba93e038f66deec') in 0.078985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter U.prefab
+  artifactKey: Guid(442d5a2afb3c3f54788a49871d628973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter U.prefab using Guid(442d5a2afb3c3f54788a49871d628973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '69397593a883cc3ccb1e3eb613df5060') in 0.069861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter V.prefab
+  artifactKey: Guid(344d77fc7badcac41aee1cd42f2cd6ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter V.prefab using Guid(344d77fc7badcac41aee1cd42f2cd6ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8bde7124a5a5c1b44d69dbfedc53776d') in 0.081357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter W.prefab
+  artifactKey: Guid(ecc11667dedcefa43a6c08b5b1c1b0a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter W.prefab using Guid(ecc11667dedcefa43a6c08b5b1c1b0a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b1d18501fcfcdbd7315d1f5104afe8e') in 0.084601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter R.prefab
+  artifactKey: Guid(353b3595668f3d54db1afec2f55b3552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter R.prefab using Guid(353b3595668f3d54db1afec2f55b3552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3b8034cd6916192cfed5e81af126472f') in 0.076741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter A.prefab
+  artifactKey: Guid(52bdb9841e923f145b809201061006dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter A.prefab using Guid(52bdb9841e923f145b809201061006dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6c96c5314976da4a9611333653b7a845') in 0.087763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter V.prefab
+  artifactKey: Guid(f798d41fdb68c934b8b1227795fb5543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter V.prefab using Guid(f798d41fdb68c934b8b1227795fb5543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c790fb6f81291e72e9e9d98644dd56f7') in 0.093588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.017.prefab
+  artifactKey: Guid(dea99e76c51cc5949920a558c48ef257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.017.prefab using Guid(dea99e76c51cc5949920a558c48ef257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c9a8b6729da940756704b888cdce729f') in 0.092088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.04.prefab
+  artifactKey: Guid(a208e37a68996ea488a813e83cc9b7fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.04.prefab using Guid(a208e37a68996ea488a813e83cc9b7fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a92015fdac5da7428cbd62f7f94b92de') in 0.070192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Thaleah_PixelFont/Materials/Thaleah_DemoBackground.png
+  artifactKey: Guid(b324a4685d480b346b084e8a5dbacbde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thaleah_PixelFont/Materials/Thaleah_DemoBackground.png using Guid(b324a4685d480b346b084e8a5dbacbde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7bb738afbebd3475cf9765735e56cd2e') in 0.131454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter fullstop.prefab
+  artifactKey: Guid(6a57ee0659f47514fb35766bf6a0b4b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter fullstop.prefab using Guid(6a57ee0659f47514fb35766bf6a0b4b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '365c1b4dff0c3fa5518441d63e5851d5') in 0.064450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.01.prefab
+  artifactKey: Guid(d883d216774c8c64a9507c9387fb0c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.01.prefab using Guid(d883d216774c8c64a9507c9387fb0c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aa208b24a091c239b3d0d0f03e8cbb44') in 0.073938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter Y.prefab
+  artifactKey: Guid(9d13ad379719cd64bae67218efd69c4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter Y.prefab using Guid(9d13ad379719cd64bae67218efd69c4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8947993d3be8f3c0bef2b5b9ad8e4a8a') in 0.080190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase G.prefab
+  artifactKey: Guid(ae7d8be6c6734d549bc8623c59204966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase G.prefab using Guid(ae7d8be6c6734d549bc8623c59204966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cd1b41c97051c2d0db7b3b5d781050db') in 0.082872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/Exclamation mark.prefab
+  artifactKey: Guid(a5b021fbc0439ba4c9b073813d76ab6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/Exclamation mark.prefab using Guid(a5b021fbc0439ba4c9b073813d76ab6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b58f3285f0ef951e9f8628f2053d09a6') in 0.088794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.014.prefab
+  artifactKey: Guid(8fe14e88d02045e49976b801baa2480b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.014.prefab using Guid(8fe14e88d02045e49976b801baa2480b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '39e7eac7719365dbc72e18820071bbb3') in 0.087426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  3.prefab
+  artifactKey: Guid(98c2f00ccbc68b045bbc5d017e4139b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  3.prefab using Guid(98c2f00ccbc68b045bbc5d017e4139b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00924323c2786c2754ede39797ef1bec') in 0.083919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/number 5.prefab
+  artifactKey: Guid(f12d6129deda42b46be9a75466359238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/number 5.prefab using Guid(f12d6129deda42b46be9a75466359238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '822465955d1b3a57c942f168cd8aa7f5') in 0.077310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(cc80d06ba7246134a93a668f0c917ca7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Main.unity using Guid(cc80d06ba7246134a93a668f0c917ca7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '40df6d5d598dd90b1ea858685627129b') in 0.032775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Thaleah_PixelFont/ThaleahFat.fontsettings
+  artifactKey: Guid(652f7165b7c30ab46af6c4aad90a639b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thaleah_PixelFont/ThaleahFat.fontsettings using Guid(652f7165b7c30ab46af6c4aad90a639b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '08d89b8f02834f90b0739fbc6cc93d65') in 0.078809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase N.prefab
+  artifactKey: Guid(1474a97985a414642a8a3b409e17cc6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase N.prefab using Guid(1474a97985a414642a8a3b409e17cc6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '385e84ffab8a0240ce6c897ebaea4ccb') in 0.073068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase V.prefab
+  artifactKey: Guid(d895d46c630b66d4b810062bf0623645) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase V.prefab using Guid(d895d46c630b66d4b810062bf0623645) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2216e1a6cb8c505f64d07e678b2fd010') in 0.067987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/icon.05.prefab
+  artifactKey: Guid(5afbcd3055ee3b7488f5a2fed0e8b3cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/icon.05.prefab using Guid(5afbcd3055ee3b7488f5a2fed0e8b3cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c7ed027bc94931ade14a77734d6722f') in 0.071664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter N.prefab
+  artifactKey: Guid(6d18087c8913efc409ce74fd3d886529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter N.prefab using Guid(6d18087c8913efc409ce74fd3d886529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bd32353c00426ef09dd0bc63fd828ada') in 0.067326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/icon.015.prefab
+  artifactKey: Guid(a06a6c9e0060c0842a1954bffadc2233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/icon.015.prefab using Guid(a06a6c9e0060c0842a1954bffadc2233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20771d0a08e8e7f981ace2fc11190eba') in 0.073067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase U.prefab
+  artifactKey: Guid(8475d76d16ff8474992c672800a17611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase U.prefab using Guid(8475d76d16ff8474992c672800a17611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5798c4c479c75a9fe7f2a63e1093152') in 0.060972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase T.prefab
+  artifactKey: Guid(7d11b969eceff7041b49eb577fb0bbf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase T.prefab using Guid(7d11b969eceff7041b49eb577fb0bbf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ebba5b6782e5de66e2cb6213ab86f0ae') in 0.073360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/question mark.prefab
+  artifactKey: Guid(a427da669df15cd45b90ae9a6521ad49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/question mark.prefab using Guid(a427da669df15cd45b90ae9a6521ad49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '180d6da86572b07dc2701cb622b865c1') in 0.059558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/block number  9.prefab
+  artifactKey: Guid(2bd5ce4083fed204f95a90d5de08bf9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/block number  9.prefab using Guid(2bd5ce4083fed204f95a90d5de08bf9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '35f8b34beb27803fe26aac9b926cea9f') in 0.077613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/block number  0.prefab
+  artifactKey: Guid(0e14756655f35254da6a66c6d3c17b3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/block number  0.prefab using Guid(0e14756655f35254da6a66c6d3c17b3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f35da2ef4c67c18e2829e5243c64f9bb') in 0.056830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/block number  8.prefab
+  artifactKey: Guid(65867a67a896745449a200b286d5d305) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/block number  8.prefab using Guid(65867a67a896745449a200b286d5d305) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64419e0f4b0b3a4d77043c32d8cc00f9') in 0.077878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/block number  3.prefab
+  artifactKey: Guid(697f5b03c81c40849a65a13154fafa56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/block number  3.prefab using Guid(697f5b03c81c40849a65a13154fafa56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '018e46dcf216fb7d727a70e2b27981c8') in 0.080956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase B.prefab
+  artifactKey: Guid(a36122dad00858f42a8d55fa543727cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase B.prefab using Guid(a36122dad00858f42a8d55fa543727cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db66cbe208014b0acc4685eab7182699') in 0.069500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter T.prefab
+  artifactKey: Guid(305ef7a9e768c734c938eb0e64b0ec56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter T.prefab using Guid(305ef7a9e768c734c938eb0e64b0ec56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2a7c65502ee5ef02f7c7b8abc19a97cd') in 0.077559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/number 6.prefab
+  artifactKey: Guid(3698e85008ad5304ba2b27a48cb744f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/number 6.prefab using Guid(3698e85008ad5304ba2b27a48cb744f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19d23336273e4120d42b82bb327603dd') in 0.077513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/number 1.prefab
+  artifactKey: Guid(b1d51a79e820d39409f875aabdb1d292) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/number 1.prefab using Guid(b1d51a79e820d39409f875aabdb1d292) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cdbac4d50b316b8ec6d02b9ef8fcc53c') in 0.065467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/number 4.prefab
+  artifactKey: Guid(29301ae47da72144d9325af5132ab2e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/number 4.prefab using Guid(29301ae47da72144d9325af5132ab2e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a0d68616357e53459136b4c00d8f75cf') in 0.074613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase X.prefab
+  artifactKey: Guid(8c528fc5a90aab840920c1432b5fb53b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase X.prefab using Guid(8c528fc5a90aab840920c1432b5fb53b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd04167ab8447cc26e417b7b033ef0116') in 0.075421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase D.prefab
+  artifactKey: Guid(ceb564d32f3c6ed4b83f394cc0c0d6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase D.prefab using Guid(ceb564d32f3c6ed4b83f394cc0c0d6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '12f3c2ab105673ab4e0f0e8570b8b4e7') in 0.070772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase S.prefab
+  artifactKey: Guid(d87c6c0f20cd9534f952edba2ddf507b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase S.prefab using Guid(d87c6c0f20cd9534f952edba2ddf507b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1afd708ea10bae66c2cd0ab1c599eaf0') in 0.065706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.010.prefab
+  artifactKey: Guid(15e0c90c8765c974eaacb693df498d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.010.prefab using Guid(15e0c90c8765c974eaacb693df498d33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eb355e223666d7c1dc5c0c978c9af472') in 0.094410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase N.prefab
+  artifactKey: Guid(f232466fe849cab4492ec045d3586586) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase N.prefab using Guid(f232466fe849cab4492ec045d3586586) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '309fffae1333b35a31d89569bd434119') in 0.081663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase I.prefab
+  artifactKey: Guid(c4c53406c0c526d41b27d24bf0d3b697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase I.prefab using Guid(c4c53406c0c526d41b27d24bf0d3b697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c6b854337d101234580fec80156105aa') in 0.120009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase C.prefab
+  artifactKey: Guid(a5667fa77ab7c5a41bab8eaf91582c37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase C.prefab using Guid(a5667fa77ab7c5a41bab8eaf91582c37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bb65fd0bb08f91c251fba5d36a7c163a') in 0.090764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase V.prefab
+  artifactKey: Guid(03f0f2520faaff54ab7e4054e5cc1fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase V.prefab using Guid(03f0f2520faaff54ab7e4054e5cc1fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c85f5cc817c95acd1e4c470cd60bba1c') in 0.071449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/icon.04.prefab
+  artifactKey: Guid(7e39ab49490065b4e9ee0e54f1a9b5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/icon.04.prefab using Guid(7e39ab49490065b4e9ee0e54f1a9b5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7ed2193d9d2637518b73b182127dbb48') in 0.068618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase V.prefab
+  artifactKey: Guid(0e3626e22e3150b47a92440b038b0402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase V.prefab using Guid(0e3626e22e3150b47a92440b038b0402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '010f5aac1d09189e95be8ae56f170351') in 0.071919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase U.prefab
+  artifactKey: Guid(805138f347f59b24aa38401beb626db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase U.prefab using Guid(805138f347f59b24aa38401beb626db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf80451c0d7722be2369849467cd56bd') in 0.074647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase X.prefab
+  artifactKey: Guid(75719e527a300b64c8e41e8f9252a76d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase X.prefab using Guid(75719e527a300b64c8e41e8f9252a76d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3c9a4cbf9b3ca538f67614f493b921ba') in 0.076912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase S.prefab
+  artifactKey: Guid(8b6df8d16759fab4d8048b0fcb30f18f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase S.prefab using Guid(8b6df8d16759fab4d8048b0fcb30f18f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'acdfaaeb079e154562ad912f927a5692') in 0.082224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase A.prefab
+  artifactKey: Guid(11da3cd1a3b131c4f9d95e7a1f36c7be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase A.prefab using Guid(11da3cd1a3b131c4f9d95e7a1f36c7be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a6856510a58f80c96a64055c3d9acc34') in 0.069126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter X.prefab
+  artifactKey: Guid(04bfb6117738703468147afd5d2b19ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter X.prefab using Guid(04bfb6117738703468147afd5d2b19ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '89d2856bb4d0404c8895f9366718e61a') in 0.075242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/comma.prefab
+  artifactKey: Guid(14a9a6fe689d8184181f75f6d49fac36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/comma.prefab using Guid(14a9a6fe689d8184181f75f6d49fac36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49b9d760e76d99a1b79c1813cbbe2356') in 0.077295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Nytrock/Global Nytrock Font/Demo/Demo.unity
+  artifactKey: Guid(8008d20af6f5da24d89d863b708326c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Nytrock/Global Nytrock Font/Demo/Demo.unity using Guid(8008d20af6f5da24d89d863b708326c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19c330394289509cca985568777fa471') in 0.035005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
   path: Assets/Nytrock/Global Nytrock Font/Legacy/GNF Atlas.png
-  artifactKey: Guid(f4cecd1a1c70c054eaa5f988d8c4d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nytrock/Global Nytrock Font/Legacy/GNF Atlas.png using Guid(f4cecd1a1c70c054eaa5f988d8c4d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '551cc519083a475cd1bf7360352a617e') in 0.035735 seconds
+  artifactKey: Guid(f4cecd1a1c70c054eaa5f988d8c4d12c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Nytrock/Global Nytrock Font/Legacy/GNF Atlas.png using Guid(f4cecd1a1c70c054eaa5f988d8c4d12c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63e766a870992733c4b74f8d44e9f7f7') in 0.099921 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 394.297526 seconds.
-  path: Assets/trivia.jpg
-  artifactKey: Guid(657fbbf593588d0418aaebe739f53107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/trivia.jpg using Guid(657fbbf593588d0418aaebe739f53107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b21679e14ed819185bfa24f846acd9f6') in 0.018353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 52.059500 seconds.
-  path: Assets/Scenes/trivia.jpg
-  artifactKey: Guid(657fbbf593588d0418aaebe739f53107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/trivia.jpg using Guid(657fbbf593588d0418aaebe739f53107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '26551627d8b534455a3e7052e8fdd495') in 0.031701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 15.024017 seconds.
+  Time since last request: 0.000031 seconds.
   path: Assets/Nytrock/Global Nytrock Font/Demo/DemoBackground.png
-  artifactKey: Guid(aa569ced239fce141b4035a55b747440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nytrock/Global Nytrock Font/Demo/DemoBackground.png using Guid(aa569ced239fce141b4035a55b747440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8d16754beef0f0b30bc801aba29fe384') in 0.041760 seconds
+  artifactKey: Guid(aa569ced239fce141b4035a55b747440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Nytrock/Global Nytrock Font/Demo/DemoBackground.png using Guid(aa569ced239fce141b4035a55b747440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c3ea6b7363c1202de8b9726de0650fc6') in 0.082016 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 146.618635 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(aa4135bc2ccb2f84b947339dfb63c104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(aa4135bc2ccb2f84b947339dfb63c104) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '33360c7190b8022757d90843784d2af4') in 0.002346 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase G.prefab
+  artifactKey: Guid(1a083e3045a4ec34fb1e7994db41431f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase G.prefab using Guid(1a083e3045a4ec34fb1e7994db41431f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '864734052e8e7a3774fa627ae97d625d') in 0.075108 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 6.077255 seconds.
-  path: Assets/Scenes/images.jpg
-  artifactKey: Guid(9c04593621323ba41b350ec8bc9093c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/images.jpg using Guid(9c04593621323ba41b350ec8bc9093c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b6405d50207eabf90ca8a953d8506b68') in 0.015619 seconds
+  Time since last request: 0.000061 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase Z.prefab
+  artifactKey: Guid(fe28918e2ebfe7b42aba1d3df1541fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase Z.prefab using Guid(fe28918e2ebfe7b42aba1d3df1541fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8913636d09deffeed17113718302d682') in 0.070564 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 6.733324 seconds.
-  path: Assets/Scenes/images.jpg
-  artifactKey: Guid(9c04593621323ba41b350ec8bc9093c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/images.jpg using Guid(9c04593621323ba41b350ec8bc9093c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3c20cc8a4527efc8636bd3bf1a53737e') in 0.018496 seconds
+  Time since last request: 0.000083 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase L.prefab
+  artifactKey: Guid(45d282d8234238b46a741d4728b89fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase L.prefab using Guid(45d282d8234238b46a741d4728b89fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8cb4441b2a2f3b6575ba1f2af4c000c0') in 0.065752 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 73.286248 seconds.
-  path: Assets/Modular low poly letters and icons
-  artifactKey: Guid(f1e84de1a0ea952458a7c6965c09a2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modular low poly letters and icons using Guid(f1e84de1a0ea952458a7c6965c09a2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7338b7d17e95d77d80a4ad697d3be2c0') in 0.002524 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase B.prefab
+  artifactKey: Guid(1ea068da78e634045bdb05f55fb6b440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase B.prefab using Guid(1ea068da78e634045bdb05f55fb6b440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'acf9562d0daaca8d216f5b301b615c5f') in 0.077497 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 23.525903 seconds.
-  path: Assets/Nytrock/Global Nytrock Font/TMP/GNF.asset
-  artifactKey: Guid(4b775fd2e279fd04a962470b83154b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nytrock/Global Nytrock Font/TMP/GNF.asset using Guid(4b775fd2e279fd04a962470b83154b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c6c04a1ed65ec5a05d59cdab0a0a24cc') in 0.088895 seconds
+  Time since last request: 0.000050 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/block number  4.prefab
+  artifactKey: Guid(1bdf876d98c7af141a4a7c3603614fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/block number  4.prefab using Guid(1bdf876d98c7af141a4a7c3603614fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e62865484929ce443656b0fb1ad68fa') in 0.066620 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.013.prefab
+  artifactKey: Guid(766cfb396d4f332498b3e590051d2958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.013.prefab using Guid(766cfb396d4f332498b3e590051d2958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0217e7b26988306ccc643ac64dbe96f1') in 0.056668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.016.prefab
+  artifactKey: Guid(fc499a3dd1a267144b4309a4a545edf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.016.prefab using Guid(fc499a3dd1a267144b4309a4a545edf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '96db7d1d6147b2f7b9890ee9ab115074') in 0.069321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase R.prefab
+  artifactKey: Guid(ae62276b4f735f84eb71392bbb6e213f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase R.prefab using Guid(ae62276b4f735f84eb71392bbb6e213f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c08ea2bac2a20d80f368d3ad490d1c5f') in 0.063658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/number 0.prefab
+  artifactKey: Guid(9bcc4dd45fce71c4ab94662b4e930cc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/number 0.prefab using Guid(9bcc4dd45fce71c4ab94662b4e930cc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b69e115f0aa6ae6c05dc95bce95a4501') in 0.067229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase G.prefab
+  artifactKey: Guid(2fd5e71c53152b347bf62c520a26d364) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase G.prefab using Guid(2fd5e71c53152b347bf62c520a26d364) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '273dbbb1e2bdf3ae4c1bf3c64406efaf') in 0.064177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/number 8.prefab
+  artifactKey: Guid(e138d147028104c4eb9923a9a20ff31b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/number 8.prefab using Guid(e138d147028104c4eb9923a9a20ff31b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fdcffb8100bc05a694fb43653967960a') in 0.068264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase C.prefab
+  artifactKey: Guid(2aedb8810369b02458ce2e23b20a12d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase C.prefab using Guid(2aedb8810369b02458ce2e23b20a12d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd253008d80db98436019b6b79136abf') in 0.072232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.05.prefab
+  artifactKey: Guid(06e827536cfdda9479332d86ed109f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.05.prefab using Guid(06e827536cfdda9479332d86ed109f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7624869c4f800e111435180d73002685') in 0.059189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/number 1.prefab
+  artifactKey: Guid(e84ec2c304a657549aea3f3bc9063f9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/number 1.prefab using Guid(e84ec2c304a657549aea3f3bc9063f9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '12a3fda5c00704269a70594044c7ae54') in 0.081566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase J.prefab
+  artifactKey: Guid(4f3230243a8bb2f4dbebc2985a7b37d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase J.prefab using Guid(4f3230243a8bb2f4dbebc2985a7b37d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7878908e23bd406ac1f58536d372ae8') in 0.079680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase L.prefab
+  artifactKey: Guid(c4b89d49d7dd08f4da39712992b58674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase L.prefab using Guid(c4b89d49d7dd08f4da39712992b58674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bff8fd36422b27bd181f7986328c64c2') in 0.059814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter S.prefab
+  artifactKey: Guid(9c83b0290541f734fb21d5d213e29565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter S.prefab using Guid(9c83b0290541f734fb21d5d213e29565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f7cfdf9e05e8635a0769c8389042e4a3') in 0.070103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase V.prefab
+  artifactKey: Guid(b69d0117843963b4b821746dca55015d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase V.prefab using Guid(b69d0117843963b4b821746dca55015d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a39f7880ee1935647f2f4e7ebe56f4d0') in 0.071730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/lowercase/lowercase I.prefab
+  artifactKey: Guid(18682bf16e9c1c246a85a4cf7227b183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/lowercase/lowercase I.prefab using Guid(18682bf16e9c1c246a85a4cf7227b183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '895b6f4043054d1edb1bb3af120ea372') in 0.067310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/number 3.prefab
+  artifactKey: Guid(872e0285070c4984ba3a0fe64d8214da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/number 3.prefab using Guid(872e0285070c4984ba3a0fe64d8214da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c40167290f24e03df8b3ff436c1f5db0') in 0.065753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase D.prefab
+  artifactKey: Guid(afa8cc65fc2c7b04f8806e01c662713f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase D.prefab using Guid(afa8cc65fc2c7b04f8806e01c662713f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '91394e2c1b2b2600f31c9ce94e044306') in 0.071667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase L.prefab
+  artifactKey: Guid(ce34855e3bd14c2448b4bba772797c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase L.prefab using Guid(ce34855e3bd14c2448b4bba772797c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2018fd6fe09135ea423ba5e87cdd8f85') in 0.067938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase M.prefab
+  artifactKey: Guid(b94c97dfe4b2b7e419638197800ef705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase M.prefab using Guid(b94c97dfe4b2b7e419638197800ef705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f23c92797eba082a308a5df8c6b8be8b') in 0.066511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase T.prefab
+  artifactKey: Guid(0e85e10581935f4459e1f3524185ece2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase T.prefab using Guid(0e85e10581935f4459e1f3524185ece2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '41f5458dfe4475743bc3cabd0b083f15') in 0.079524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  8.prefab
+  artifactKey: Guid(11796bfe7776740439608343d3f825fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  8.prefab using Guid(11796bfe7776740439608343d3f825fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '888d961d589c4306721980cf059f2a27') in 0.068072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/numbers/number 2.prefab
+  artifactKey: Guid(b6caf0434e835ae49b6cf6e2dc9cbf8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/numbers/number 2.prefab using Guid(b6caf0434e835ae49b6cf6e2dc9cbf8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3982bcab4f743cbf695230ff40045426') in 0.065983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  0.prefab
+  artifactKey: Guid(c44a248a78107444993e11d99ea9f955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  0.prefab using Guid(c44a248a78107444993e11d99ea9f955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eb5215552d9620250f62a0a1d15fd01e') in 0.068166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/icon.03.prefab
+  artifactKey: Guid(af05969ae3bd0f34e84de5c5634937cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/icon.03.prefab using Guid(af05969ae3bd0f34e84de5c5634937cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a7a7a86b23df2e9eb459fc13f03fc6ea') in 0.070170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase J.prefab
+  artifactKey: Guid(270fed75d94711f4bacf1d66e41904f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase J.prefab using Guid(270fed75d94711f4bacf1d66e41904f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '202275a68694d0f4ee4bdf39efd57de8') in 0.066476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase  R.prefab
+  artifactKey: Guid(abcfd2b9749866a4b9f531c944a491e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase  R.prefab using Guid(abcfd2b9749866a4b9f531c944a491e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '709a8d5e1b4f645d829ecca2a3c94f3b') in 0.065179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  7.prefab
+  artifactKey: Guid(44bfcf2554d74ee45aadc2363ee67dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  7.prefab using Guid(44bfcf2554d74ee45aadc2363ee67dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '93027aebbc97f455ae375457537ef2d1') in 0.072298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modular low poly letters and icons/materials/blank Material.mat
+  artifactKey: Guid(69407b4c3fd8deb46a43c364ea03e45e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/materials/blank Material.mat using Guid(69407b4c3fd8deb46a43c364ea03e45e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b4831118f18708200926bf059a3fd91e') in 0.069560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/uppercase/uppercase P.prefab
+  artifactKey: Guid(f3a90dfa21e7d64469e269af1db03682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/uppercase/uppercase P.prefab using Guid(f3a90dfa21e7d64469e269af1db03682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cea098dffb0deffbc4541d3f9a5e2524') in 0.070189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/lowercase L.prefab
+  artifactKey: Guid(5d2220e30617be44a941d38e902abdd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/lowercase L.prefab using Guid(5d2220e30617be44a941d38e902abdd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '647f8212b7b9d8de6019aff54e98959b') in 0.077826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/icon.012.prefab
+  artifactKey: Guid(566c2582e219bc743a789d9b3570672e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/icon.012.prefab using Guid(566c2582e219bc743a789d9b3570672e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a489c18abb01b535967547b243d448dd') in 0.091621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/icons/icon.02.prefab
+  artifactKey: Guid(163bd5c92c61d474e95fb975fe246221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/icons/icon.02.prefab using Guid(163bd5c92c61d474e95fb975fe246221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7788745bda49656bddaa0ddff3a4407') in 0.071944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Thaleah_PixelFont/Thaleah_Demo.unity
+  artifactKey: Guid(180143f4a57f2124dae57257c95bc10a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thaleah_PixelFont/Thaleah_Demo.unity using Guid(180143f4a57f2124dae57257c95bc10a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd4aa70850db0862e2b33b311ad666d4') in 0.036078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block letter E.prefab
+  artifactKey: Guid(17cb8aa8686f0cb45ab08d6a1a39c8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block letter E.prefab using Guid(17cb8aa8686f0cb45ab08d6a1a39c8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '67b90e2237e52513e4481e22a02b5eea') in 0.061961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/number 0.prefab
+  artifactKey: Guid(fd2ac82dce0733f42b95316f519657cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/number 0.prefab using Guid(fd2ac82dce0733f42b95316f519657cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1305ea3e6f61a3d506235d6a6ea5b35b') in 0.063672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/block number  4.prefab
+  artifactKey: Guid(4b9dd080784580c4caccb042ac19cc30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/block number  4.prefab using Guid(4b9dd080784580c4caccb042ac19cc30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '15efdb45b7aaa11fc822f2a1753db3c2') in 0.076687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Modular low poly letters and icons/prefab/blocks/block letter Z.prefab
+  artifactKey: Guid(3b8da0e14f7732a4c8919f781650c2b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/prefab/blocks/block letter Z.prefab using Guid(3b8da0e14f7732a4c8919f781650c2b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a6bae286b293ee697dcfeb0b56a2ec91') in 0.055570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modular low poly letters and icons/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(6ed796080328ff042a8aeaf48047cba4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(6ed796080328ff042a8aeaf48047cba4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9301fc417e021e4b6d6ce67784fe1bfb') in 0.088916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modular low poly letters and icons/mesh/uppercase 0.prefab
+  artifactKey: Guid(e06b24e168ad74642b8b84ec6f5dfe60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Modular low poly letters and icons/mesh/uppercase 0.prefab using Guid(e06b24e168ad74642b8b84ec6f5dfe60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7341a59df82f3f718508702f8afc049') in 0.061373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
