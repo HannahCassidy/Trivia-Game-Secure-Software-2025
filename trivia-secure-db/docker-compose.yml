@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  mysql:
+    image: mysql:8.4
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpw
+      MYSQL_DATABASE: trivia
+      MYSQL_USER: gameplay_user
+      MYSQL_PASSWORD: secretpw
+    ports:
+      - "3306:3306"
