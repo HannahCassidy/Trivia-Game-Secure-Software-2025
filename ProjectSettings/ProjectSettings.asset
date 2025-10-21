@@ -948,10 +948,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: da6a4916-61aa-4a06-8453-e8f8e2ecb712
+  cloudProjectId: 16b5a905-21ae-45f0-819d-f87d70c06488
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: secure trivia
+  projectName: Trivia-Game-Secure-Software-2025
   organizationId: glowingelf
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

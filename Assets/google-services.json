@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34286413595",
+    "project_id": "trivia-game-ae9ef",
+    "storage_bucket": "trivia-game-ae9ef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34286413595:android:b391235813dad2255915be",
+        "android_client_info": {
+          "package_name": "com.myapp.trivia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiPpqkmluNWWRrSjBYma81kU4KjJ9QuYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
