@@ -20,112 +20,144 @@ public class LoginRequest
 }
 
 [System.Serializable]
-public class LoginSuccessResponse
-{
-    public string username;
-}
-
-[System.Serializable]
 public class ErrorResponse
 {
     public string message;
 }
 
+[System.Serializable]
+public class LoginSuccessResponse
+{
+    public string username;
+}
+
 public class LoginController : MonoBehaviour
 {
     [Header("API")]
-    [SerializeField] private string baseUrl      = "http://localhost:5165";
-    [SerializeField] private string registerPath = "/auth/register";
-    [SerializeField] private string loginPath    = "/auth/login";
+    [SerializeField] private string baseUrl = "http://localhost:5165"; 
+    private string RegisterUrl => baseUrl.TrimEnd('/') + "/auth/register";
+    private string LoginUrl    => baseUrl.TrimEnd('/') + "/auth/login";
 
     [Header("Panels")]
-    [SerializeField] private GameObject welcomePanel;
-    [SerializeField] private GameObject loginScreenPanel;
-    [SerializeField] private GameObject registrationPanel;
+    [SerializeField] private GameObject welcomePanel;    
+    [SerializeField] private GameObject loginScreenPanel;  
+    [SerializeField] private GameObject registrationPanel;   
+    [SerializeField] private GameObject userHubPanel;        
 
-    [Header("Login UI")]
+    [Header("Login Inputs")]
     [SerializeField] private TMP_InputField loginUsernameInput;
     [SerializeField] private TMP_InputField loginPasswordInput;
-    [SerializeField] private Button         loginButton;
 
-    [Header("New Account UI")]
-    [SerializeField] private TMP_InputField newUsernameInput;
-    [SerializeField] private TMP_InputField newPasswordInput;
-    [SerializeField] private Button         registerButton;
+    [Header("Registration Inputs")]
+    [SerializeField] private TMP_InputField registrationUsernameInput;
+    [SerializeField] private TMP_InputField registrationPasswordInput;
 
     [Header("Status Texts")]
     [SerializeField] private TMP_Text loginStatusText;
     [SerializeField] private TMP_Text registrationStatusText;
 
-    [Header("Game")]
-    [SerializeField] private GameController gameController;
-
-    private void Awake()
-    {
-        if (loginButton)    loginButton.onClick.AddListener(onLoginClicked);
-        if (registerButton) registerButton.onClick.AddListener(onRegisterClicked);
-    }
-
+[Header("Hub")]
+[SerializeField] private UserHubController userHubController;
     private void Start()
     {
-        showWelcomeOnly();
+        ShowWelcomeOnly();
     }
 
-    // ============ PANEL SWITCHING ============
-
-    public void onShowLoginPanel()
+    private void ShowWelcomeOnly()
     {
-        welcomePanel.SetActive(true);
-        loginScreenPanel.SetActive(true);
-        registrationPanel.SetActive(false);
+        if (welcomePanel)        welcomePanel.SetActive(true);
+        if (loginScreenPanel)    loginScreenPanel.SetActive(false);
+        if (registrationPanel)   registrationPanel.SetActive(false);
+        if (userHubPanel)        userHubPanel.SetActive(false);
 
-        loginStatusText.text = "";
-        registrationStatusText.text = "";
+        if (loginStatusText)         loginStatusText.text = "";
+        if (registrationStatusText)  registrationStatusText.text = "";
+
+        if (loginUsernameInput)        loginUsernameInput.text = "";
+        if (loginPasswordInput)        loginPasswordInput.text = "";
+        if (registrationUsernameInput) registrationUsernameInput.text = "";
+        if (registrationPasswordInput) registrationPasswordInput.text = "";
     }
 
-    public void onShowRegistrationPanel()
+    public void OnShowLoginClicked()
     {
-        welcomePanel.SetActive(true);
-        loginScreenPanel.SetActive(false);
-        registrationPanel.SetActive(true);
+        Debug.Log("[LoginController] Show Login clicked");
 
-        loginStatusText.text = "";
-        registrationStatusText.text = "";
+        if (welcomePanel)        welcomePanel.SetActive(false);
+        if (loginScreenPanel)    loginScreenPanel.SetActive(true);
+        if (registrationPanel)   registrationPanel.SetActive(false);
+        if (userHubPanel)        userHubPanel.SetActive(false);
+
+        if (loginStatusText)     loginStatusText.text = "";
     }
 
-    public void onBackToWelcome()
+    public void OnShowRegisterClicked()
     {
-        showWelcomeOnly();
+        Debug.Log("[LoginController] Show Register clicked");
+
+        if (welcomePanel)        welcomePanel.SetActive(false);
+        if (loginScreenPanel)    loginScreenPanel.SetActive(false);
+        if (registrationPanel)   registrationPanel.SetActive(true);
+        if (userHubPanel)        userHubPanel.SetActive(false);
+
+        if (registrationStatusText) registrationStatusText.text = "";
     }
 
-    private void showWelcomeOnly()
+    public void OnBackToWelcomeFromLogin()
     {
-        welcomePanel.SetActive(true);
-        loginScreenPanel.SetActive(false);
-        registrationPanel.SetActive(false);
-
-        loginStatusText.text = "";
-        registrationStatusText.text = "";
+        Debug.Log("[LoginController] Back from Login");
+        ShowWelcomeOnly();
     }
 
-    // ============ REGISTER ============
-
-    private void onRegisterClicked()
+    public void OnBackToWelcomeFromRegister()
     {
-        string username = newUsernameInput.text.Trim();
-        string password = newPasswordInput.text;
-
-        StartCoroutine(registerRoutine(username, password));
+        Debug.Log("[LoginController] Back from Register");
+        ShowWelcomeOnly();
     }
 
-    private IEnumerator registerRoutine(string username, string password)
+    public void OnLoginButtonClicked()
     {
-        registrationStatusText.text = "Creating account...";
+        Debug.Log("[LoginController] Login button pressed");
 
-        var payload = new RegisterRequest { username = username, password = password };
-        string json = JsonUtility.ToJson(payload);
+        string username = loginUsernameInput ? loginUsernameInput.text.Trim() : "";
+        string password = loginPasswordInput ? loginPasswordInput.text : "";
 
-        using (var req = new UnityWebRequest(baseUrl + registerPath, "POST"))
+        if (string.IsNullOrWhiteSpace(username) || string.IsNullOrEmpty(password))
+        {
+            if (loginStatusText) loginStatusText.text = "Please enter username and password.";
+            return;
+        }
+
+        StartCoroutine(LoginRoutine(username, password));
+    }
+
+    public void OnRegisterButtonClicked()
+    {
+        Debug.Log("[LoginController] Register button pressed");
+
+        string username = registrationUsernameInput ? registrationUsernameInput.text.Trim() : "";
+        string password = registrationPasswordInput ? registrationPasswordInput.text : "";
+
+        if (string.IsNullOrWhiteSpace(username) || string.IsNullOrEmpty(password))
+        {
+            if (registrationStatusText) registrationStatusText.text = "Please enter username and password.";
+            return;
+        }
+
+        StartCoroutine(RegisterRoutine(username, password));
+    }
+
+    // register
+
+    private IEnumerator RegisterRoutine(string username, string password)
+    {
+        if (registrationStatusText) registrationStatusText.text = "Registering...";
+
+        var dto = new RegisterRequest { username = username, password = password };
+        string json = JsonUtility.ToJson(dto);
+        string url  = RegisterUrl;
+
+        using (UnityWebRequest req = new UnityWebRequest(url, "POST"))
         {
             req.timeout         = 10;
             req.uploadHandler   = new UploadHandlerRaw(Encoding.UTF8.GetBytes(json));
@@ -140,41 +172,42 @@ public class LoginController : MonoBehaviour
 #else
             bool bad = req.isNetworkError || req.isHttpError;
 #endif
-            string body = req.downloadHandler.text;
+
+            string body = req.downloadHandler != null ? req.downloadHandler.text : "";
 
             if (bad)
             {
-                ErrorResponse err = null;
-                try { err = JsonUtility.FromJson<ErrorResponse>(body); } catch {}
+                Debug.LogError($"[Register] {req.responseCode} {req.error} | {body}");
 
-                registrationStatusText.text = err != null ? err.message : "Registration failed.";
+                ErrorResponse err = null;
+                try { err = JsonUtility.FromJson<ErrorResponse>(body); } catch { }
+
+                if (registrationStatusText)
+                    registrationStatusText.text = err != null && !string.IsNullOrEmpty(err.message)
+                        ? err.message
+                        : "Registration failed.";
             }
             else
             {
-                registrationStatusText.text = "Account created. You can now log in.";
-                onShowLoginPanel(); // auto-switch to login
+                Debug.Log("[Register] success: " + body);
+
+                if (registrationStatusText)
+                    registrationStatusText.text = "User registered. You can now log in.";
             }
         }
     }
 
-    // ============ LOGIN ============
+    // login
 
-    private void onLoginClicked()
+    private IEnumerator LoginRoutine(string username, string password)
     {
-        string username = loginUsernameInput.text.Trim();
-        string password = loginPasswordInput.text;
+        if (loginStatusText) loginStatusText.text = "Logging in...";
 
-        StartCoroutine(loginRoutine(username, password));
-    }
+        var dto = new LoginRequest { username = username, password = password };
+        string json = JsonUtility.ToJson(dto);
+        string url  = LoginUrl;
 
-    private IEnumerator loginRoutine(string username, string password)
-    {
-        loginStatusText.text = "Logging in...";
-
-        var payload = new LoginRequest { username = username, password = password };
-        string json = JsonUtility.ToJson(payload);
-
-        using (var req = new UnityWebRequest(baseUrl + loginPath, "POST"))
+        using (UnityWebRequest req = new UnityWebRequest(url, "POST"))
         {
             req.timeout         = 10;
             req.uploadHandler   = new UploadHandlerRaw(Encoding.UTF8.GetBytes(json));
@@ -189,28 +222,49 @@ public class LoginController : MonoBehaviour
 #else
             bool bad = req.isNetworkError || req.isHttpError;
 #endif
-            string body = req.downloadHandler.text;
+
+            string body = req.downloadHandler != null ? req.downloadHandler.text : "";
 
             if (bad)
             {
-                ErrorResponse err = null;
-                try { err = JsonUtility.FromJson<ErrorResponse>(body); } catch {}
+                Debug.LogError($"[Login] {req.responseCode} {req.error} | {body}");
 
-                if (err != null && err.message.ToLower().Contains("locked"))
-                {
-                    loginStatusText.text = err.message;
-                }
-                else
-                {
-                    loginStatusText.text = err != null ? err.message : "Login failed.";
-                }
+                ErrorResponse err = null;
+                try { err = JsonUtility.FromJson<ErrorResponse>(body); } catch { }
+
+                if (loginStatusText)
+                    loginStatusText.text = err != null && !string.IsNullOrEmpty(err.message)
+                        ? err.message
+                        : "Login failed.";
             }
             else
             {
-                var resp = JsonUtility.FromJson<LoginSuccessResponse>(body);
-                loginStatusText.text = $"Welcome, {resp.username}!";
+                Debug.Log("[Login] success: " + body);
 
-                gameController.showTrivia();
+                var resp = JsonUtility.FromJson<LoginSuccessResponse>(body);
+                if (resp == null || string.IsNullOrEmpty(resp.username))
+                {
+                    if (loginStatusText) loginStatusText.text = "Invalid server response.";
+                    yield break;
+                }
+
+                AuthManager.Username = resp.username;
+                Debug.Log("[Login] AuthManager.Username set to: " + AuthManager.Username);
+
+                if (userHubController != null)
+                {
+                  userHubController.RefreshWelcome();
+                }
+
+
+                if (loginStatusText) loginStatusText.text = "";
+                if (loginUsernameInput) loginUsernameInput.text = "";
+                if (loginPasswordInput) loginPasswordInput.text = "";
+
+                if (welcomePanel)      welcomePanel.SetActive(false);
+                if (loginScreenPanel)  loginScreenPanel.SetActive(false);
+                if (registrationPanel) registrationPanel.SetActive(false);
+                if (userHubPanel)      userHubPanel.SetActive(true);
             }
         }
     }

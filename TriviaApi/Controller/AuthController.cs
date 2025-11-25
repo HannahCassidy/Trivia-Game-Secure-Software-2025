@@ -20,7 +20,7 @@ namespace TriviaApi.Controllers
             this.db = db;
         }
 
-        // ========= DTOs coming from Unity =========
+        // DTOs from Unity
 
         public class RegisterDto
         {
@@ -44,9 +44,7 @@ namespace TriviaApi.Controllers
             public string username { get; set; } = string.Empty;
         }
 
-        // ================== REGISTER ==================
-
-        // POST /auth/register
+        // register
         [HttpPost("register")]
         public async Task<IActionResult> register([FromBody] RegisterDto dto)
         {
@@ -63,7 +61,6 @@ namespace TriviaApi.Controllers
                 return Conflict(new ErrorRes { message = "That username is already taken." });
             }
 
-            // Create salt + hash
             byte[] salt;
             byte[] hash;
 
@@ -88,9 +85,8 @@ namespace TriviaApi.Controllers
             return Ok(new ErrorRes { message = "User registered." });
         }
 
-        // ================== LOGIN ==================
+        // login
 
-        // POST /auth/login
         [HttpPost("login")]
         public async Task<IActionResult> login([FromBody] LoginDto dto)
         {
@@ -103,13 +99,11 @@ namespace TriviaApi.Controllers
 
             var user = await db.Users.SingleOrDefaultAsync(u => u.Username == username);
 
-            // If user doesn't exist, just say "invalid"
             if (user == null)
             {
                 return Unauthorized(new ErrorRes { message = "Invalid username or password." });
             }
 
-            // If already locked, do not process password
             if (user.IsLocked)
             {
                 return Unauthorized(new ErrorRes
@@ -118,7 +112,6 @@ namespace TriviaApi.Controllers
                 });
             }
 
-            // Verify password
             bool passwordMatches;
             using (var hmac = new HMACSHA512(user.PasswordSalt))
             {
@@ -148,7 +141,6 @@ namespace TriviaApi.Controllers
                 return Unauthorized(new ErrorRes { message = "Invalid username or password." });
             }
 
-            // Successful login: reset failed count
             user.FailedLoginCount = 0;
             await db.SaveChangesAsync();
 

@@ -4,8 +4,8 @@ namespace TriviaApi.Controllers
 {
     public static class PasswordHasher
     {
-        private const int saltSize   = 16;   // 128 bit
-        private const int keySize    = 32;   // 256 bit
+        private const int saltSize   = 16;  
+        private const int keySize    = 32;   
         private const int iterations = 100_000;
 
         public static void createPasswordHash(string password, out byte[] hash, out byte[] salt)
