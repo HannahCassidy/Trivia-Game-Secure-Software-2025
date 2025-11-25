@@ -26,9 +26,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private Button     nextQuesBtn;
     [SerializeField] private Button     endGameBtn;
 
-    [Header("Welcome UI (optional)")]
+    [Header("Welcome/Login UI")]
     [SerializeField] private GameObject welcomePanel;
-    [SerializeField] private Button     playBtn;
 
     private int      currentQuestionId = -1;
     private string[] currentChoices    = Array.Empty<string>();
@@ -42,10 +41,12 @@ public class GameController : MonoBehaviour
         if (ans4) ans4.onClick.AddListener(() => onAnswer(3));
         if (nextQuesBtn) nextQuesBtn.onClick.AddListener(onNextQuestion);
         if (endGameBtn)  endGameBtn.onClick.AddListener(onExitToWelcome);
-        if (playBtn)     playBtn.onClick.AddListener(showTrivia);
     }
 
-    private void Start() => showWelcome();
+    private void Start()
+    {
+        showWelcome();
+    }
 
     private void showWelcome()
     {
@@ -53,12 +54,13 @@ public class GameController : MonoBehaviour
         if (triviaPanel)  triviaPanel.SetActive(false);
         statusText?.SetText("");
         scoreTracker?.SetText("Score: 0");
-        currentScore = 0;
+        currentScore      = 0;
         currentQuestionId = -1;
-        currentChoices = Array.Empty<string>();
+        currentChoices    = Array.Empty<string>();
     }
 
-    private void showTrivia()
+    // Called by LoginController when a user successfully logs in
+    public void showTrivia()
     {
         if (welcomePanel) welcomePanel.SetActive(false);
         if (triviaPanel)  triviaPanel.SetActive(true);
@@ -69,9 +71,26 @@ public class GameController : MonoBehaviour
 
     private void onNextQuestion()
     {
-        setButtonText(nextQuesBtn, "Loading...");
         nextQuesBtn.interactable = false;
         StartCoroutine(fetchNextQuestion());
+    }
+
+    private void onExitToWelcome()
+    {
+        StartCoroutine(endGameRoutine());
+        showWelcome();
+    }
+
+    private void onAnswer(int choiceIndex)
+    {
+        if (currentQuestionId < 0 || currentChoices == null ||
+            choiceIndex < 0 || choiceIndex >= currentChoices.Length)
+        {
+            statusText?.SetText("No active question.");
+            return;
+        }
+
+        StartCoroutine(submitAnswerRoutine(currentQuestionId, choiceIndex));
     }
 
     private IEnumerator fetchNextQuestion()
@@ -81,31 +100,35 @@ public class GameController : MonoBehaviour
         string url = combineUrl(triviaBaseUrl, triviaNextPath);
         using (var req = UnityWebRequest.Get(url))
         {
-            req.timeout = 10;
+            req.timeout         = 10;
             req.downloadHandler = new DownloadHandlerBuffer();
             Debug.Log($"[Trivia] GET {url}");
             yield return req.SendWebRequest();
 
 #if UNITY_2020_3_OR_NEWER
-            bool bad = req.result == UnityWebRequest.Result.ConnectionError || req.result == UnityWebRequest.Result.ProtocolError;
+            bool bad = req.result == UnityWebRequest.Result.ConnectionError ||
+                       req.result == UnityWebRequest.Result.ProtocolError;
 #else
             bool bad = req.isNetworkError || req.isHttpError;
 #endif
             Debug.Log($"[Trivia] result={req.result} code={req.responseCode} err={req.error}");
             if (bad)
             {
-                if (statusText) statusText.text = $"Failed to load: {req.responseCode}\n{req.error}\n{req.downloadHandler.text}";
+                if (statusText)
+                {
+                    statusText.text = $"Failed to load: {req.responseCode}\n{req.error}\n{req.downloadHandler.text}";
+                }
                 setButtonText(nextQuesBtn, "Next");
-                nextQuesBtn.interactable = true;
+                if (nextQuesBtn) nextQuesBtn.interactable = true;
                 yield break;
             }
 
             var res = JsonUtility.FromJson<QuestionRes>(req.downloadHandler.text);
             if (res == null)
             {
-                statusText?.SetText("No question received.");
+                statusText?.SetText("Bad response from server.");
                 setButtonText(nextQuesBtn, "Next");
-                nextQuesBtn.interactable = true;
+                if (nextQuesBtn) nextQuesBtn.interactable = true;
                 yield break;
             }
 
@@ -121,18 +144,8 @@ public class GameController : MonoBehaviour
             if (ans4) setButtonText(ans4, currentChoices.Length > 3 ? currentChoices[3] : "—");
 
             setButtonText(nextQuesBtn, "Next");
-            nextQuesBtn.interactable = true;
+            if (nextQuesBtn) nextQuesBtn.interactable = true;
         }
-    }
-
-    private void onAnswer(int choiceIndex)
-    {
-        if (currentQuestionId < 0 || currentChoices == null || choiceIndex < 0 || choiceIndex >= currentChoices.Length)
-        {
-            statusText?.SetText("No active question.");
-            return;
-        }
-        StartCoroutine(submitAnswerRoutine(currentQuestionId, choiceIndex));
     }
 
     private IEnumerator submitAnswerRoutine(int questionId, int choiceIndex)
@@ -144,7 +157,7 @@ public class GameController : MonoBehaviour
 
         using (var req = new UnityWebRequest(url, "POST"))
         {
-            req.timeout = 10;
+            req.timeout         = 10;
             req.uploadHandler   = new UploadHandlerRaw(Encoding.UTF8.GetBytes(payload));
             req.downloadHandler = new DownloadHandlerBuffer();
             req.SetRequestHeader("Content-Type", "application/json");
@@ -152,7 +165,8 @@ public class GameController : MonoBehaviour
             yield return req.SendWebRequest();
 
 #if UNITY_2020_3_OR_NEWER
-            bool bad = req.result == UnityWebRequest.Result.ConnectionError || req.result == UnityWebRequest.Result.ProtocolError;
+            bool bad = req.result == UnityWebRequest.Result.ConnectionError ||
+                       req.result == UnityWebRequest.Result.ProtocolError;
 #else
             bool bad = req.isNetworkError || req.isHttpError;
 #endif
@@ -165,29 +179,21 @@ public class GameController : MonoBehaviour
             var res = JsonUtility.FromJson<AnswerRes>(req.downloadHandler.text);
             if (res == null)
             {
-                statusText?.SetText("No response from server.");
+                statusText?.SetText("Bad answer response.");
                 yield break;
             }
 
             if (res.correct)
             {
-                currentScore++;
+                currentScore += 10;
                 scoreTracker?.SetText($"Score: {currentScore}");
-                statusText?.SetText("Correct!");
+                statusText?.SetText($"Correct! The answer was {res.correctAnswer}.");
             }
             else
             {
-                statusText?.SetText($"Incorrect. Correct answer: {res.correctAnswer}");
+                statusText?.SetText($"Incorrect. The correct answer was {res.correctAnswer}.");
             }
-
-            nextQuesBtn.interactable = true;
         }
-    }
-
-    private void onExitToWelcome()
-    {
-        StartCoroutine(endGameRoutine());
-        showWelcome();
     }
 
     private IEnumerator endGameRoutine()
@@ -195,7 +201,7 @@ public class GameController : MonoBehaviour
         string url = combineUrl(triviaBaseUrl, triviaEndPath);
         using (var req = new UnityWebRequest(url, "POST"))
         {
-            req.timeout = 10;
+            req.timeout         = 10;
             req.uploadHandler   = new UploadHandlerRaw(Encoding.UTF8.GetBytes("{}"));
             req.downloadHandler = new DownloadHandlerBuffer();
             req.SetRequestHeader("Content-Type", "application/json");
@@ -218,21 +224,23 @@ public class GameController : MonoBehaviour
         return path.StartsWith("/") ? root + path : root + "/" + path;
     }
 
-    // DTOs
-    [Serializable] private class QuestionRes
+    [Serializable]
+    private class QuestionRes
     {
         public int      questionId;
         public string   question;
         public string[] choices;
     }
 
-    [Serializable] private class AnswerReq
+    [Serializable]
+    private class AnswerReq
     {
         public int questionId;
         public int choiceIndex;
     }
 
-    [Serializable] private class AnswerRes
+    [Serializable]
+    private class AnswerRes
     {
         public bool   correct;
         public int    correctIndex;
