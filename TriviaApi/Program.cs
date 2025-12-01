@@ -38,4 +38,3 @@ app.MapControllers();
 app.MapGet("/", () => Results.Text("Trivia API is running", "text/plain"));
 
 app.Run();
-

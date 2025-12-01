@@ -10,7 +10,7 @@ public class UserStatsDto
     public int   totalGamesPlayed;
     public int   totalQuestionsAnswered;
     public int   totalCorrectAnswers;
-    public float accuracy;   // 0.0 – 1.0
+    public float accuracy;  
 }
 
 public class StatsPanelController : MonoBehaviour
@@ -26,7 +26,7 @@ public class StatsPanelController : MonoBehaviour
     [SerializeField] private UserHubController userHubController;
 
     [Header("API")]
-    [SerializeField] private string baseUrl = "http://localhost:5165";   // 👈 IMPORTANT
+    [SerializeField] private string baseUrl = "http://localhost:5165";
 
     private void OnEnable()
     {
@@ -45,7 +45,7 @@ public class StatsPanelController : MonoBehaviour
         }
 
         string url = baseUrl.TrimEnd('/') + "/stats/" + UnityWebRequest.EscapeURL(AuthManager.Username);
-        Debug.Log("[Stats] Requesting: " + url);   // 👈 this will show you the exact URL
+        Debug.Log("[Stats] Requesting: " + url);
 
         using (UnityWebRequest req = UnityWebRequest.Get(url))
         {
